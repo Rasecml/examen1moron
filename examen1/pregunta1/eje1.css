@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+.contenedor1{
+    background-color: white;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    align-items: 400px;
+    padding: 30px 10px;
+    gap:30px;
+}
+
+.conteimg{
+    width: 400px;
+    height: 400px;
+}
+
+.conteimg img{
+    width: 100%;
+}
+
+.lis{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap:10px;
+}
+
+.linea1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:10px;
+}
+
+.descuento{
+    background-color: red;
+    border-radius: 10px;
+    padding: 0px 2px;
+    color: white;
+}
+
+button{
+    background-color: #ADD500;
+    border-radius: 18px;
+    border: none;
+    padding: 15px 15px;
+
+}
+
+.tachar{
+    text-decoration:line-through
+}
+
+li{
+    list-style: none;
+}
+
+li::before{
+    content: "\2713\0020";
+}
+
+.linea2{
+    font-size: 25px;
+}
+
+.precio{
+    font-size: 20px;
+}
+
+
